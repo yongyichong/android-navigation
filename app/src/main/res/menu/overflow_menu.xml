@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- TODO Step 9.1 - Add an item for the settings fragment -->
+    <item
+        android:id="@+id/settings_dest"
+        android:icon="@drawable/ic_settings"
+        android:menuCategory="secondary"
+        android:title="@string/settings" />
+    <!-- TODO END STEP 9.1 -->
+
+    <item
+        android:id="@+id/shopping_cart"
+        android:icon="@drawable/ic_shopping_cart_white"
+        android:title="@string/shopping_cart"
+        app:showAsAction="always" />
+</menu>
